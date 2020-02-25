@@ -1,3 +1,5 @@
+"use strict";
+
 let country = prompt ('Please, choose your country');
 console.log(country.toUpperCase());
 
@@ -28,6 +30,7 @@ switch(country) {
         default:
         message = 'В вашей стране доставка недоступна'
         alert(message)
+        break;
 }
 
 message = 'Доставка в ' + country + ' будет стоить ' + price + ' кредитов'

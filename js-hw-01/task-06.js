@@ -1,3 +1,5 @@
+"use strict";
+
 let input = +prompt ('Введите число', '');
 let total = 0; 
 let message;

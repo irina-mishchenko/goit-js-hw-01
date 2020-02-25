@@ -1,3 +1,5 @@
+"use strict";
+
 const ADMIN_PASSWORD = prompt ('Please, enter your password');
 let message;
 
